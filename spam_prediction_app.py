@@ -13,4 +13,3 @@ prediction = model_1.predict([message])
 # #create a button , when press then output will predict
 if st.button('PREDICT'):
   st.title(prediction[0])      #prints the output
-print(prediction)
